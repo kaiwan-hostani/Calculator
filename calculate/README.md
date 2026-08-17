@@ -28,4 +28,4 @@ While building this project, I practiced:
 
 ## Screenshot
 
-![Calculator Screenshot](image/Calculator.png)
+![Calculator Screenshot](Image/Calculator.png)
