@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  background-color: #2f578a;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+
+.result {
+  display:flex;
+  justify-content: end;
+  align-items: center;
+  width: 330px;
+  height: 100px;
+  background-color: #121358;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+p{
+  color:white;
+  margin-right: 20px;
+  font-size:35px;
+}
+
+.three-part {
+  display: grid;
+  grid-template-rows: 75px;
+  grid-template-columns: auto 75px 75px;
+  gap: 10px;
+}
+
+
+.numbers {
+  display: grid;
+  grid-template-rows: 75px 75px 75px;
+  grid-template-columns: 75px 75px 75px 75px;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.top button,
+.operater button{
+  background-color: #5996FF;
+  color:white;
+}
+
+button {
+  transition: background-color 0.5s ease-in-out,transform 0.3s ease-in-out;
+}
+
+.ac button,
+.zero button {
+  width: 160px;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: none;
+  font-size: 24px;
+  
+}
+
+.operater{
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: #5996FF;
+  border: none;
+  font-size: 28px;
+  color: white;
+}
+
+svg{
+  margin-top: 7px;
+}
+
+.dot {
+  font-size: 28px;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button:active{
+  transform: scale(0.8);
+}
