@@ -30,4 +30,4 @@ While building this project, I practiced:
 
 ## Screenshot
 
-![To-Do List Screenshot](Image/TodoList.png)
+![To-Do List Screenshot](image/To-do-list.png)
